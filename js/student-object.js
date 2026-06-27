@@ -13,7 +13,7 @@ console.log('=== Student Object ===');
 console.log(student);
 
 // Print each property using dot notation and bracket notation
-console.log('\nStudent ID: ' + student.studentId);
-console.log('Name: ' + student.studentName);
-console.log('Email: ' + student['email']);
-console.log('Status: ' + student.status);
+console.log(`\nStudent ID: ${student.studentId}`);
+console.log(`Name: ${student.studentName}`);
+console.log(`Email: ${student['email']}`);
+console.log(`Status: ${student.status}`);
