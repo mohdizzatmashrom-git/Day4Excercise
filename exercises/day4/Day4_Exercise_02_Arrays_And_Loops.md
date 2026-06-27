@@ -67,4 +67,6 @@ Answer:
 
 ```text
 How is a JavaScript array similar to Java ArrayList?
+A JavaScript array is similar to a Java ArrayList because it is a collection of elements that can be accessed by index.
+
 ```

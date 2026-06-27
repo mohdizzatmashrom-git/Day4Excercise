@@ -74,4 +74,6 @@ Answer:
 
 ```text
 What is one difference between a Java object and a JavaScript object?
+A Java object is a class instance, while a JavaScript object is a collection of key-value pairs.
+
 ```

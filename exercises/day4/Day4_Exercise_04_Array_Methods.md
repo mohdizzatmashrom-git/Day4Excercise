@@ -398,8 +398,25 @@ Answer the following questions in your README:
 
 ```text
 1. What is the difference between filter, find, and map?
+Answer:
+- `filter` creates a new array with all elements that pass the test implemented by the provided function.
+- `find` returns the value of the first element in the array that satisfies the provided testing function. If no values satisfy the testing function, `undefined` is returned.
+- `map` creates a new array populated with the results of calling a provided function on every element in the calling array.
+
 2. Which four array methods change the original array?
+Answer:
+- `push`, `pop`, `shift`, and `unshift` change the original array.
+
 3. What does push return?
+Answer:
+- `push` returns the new length of the array.
+
 4. What does pop return?
+Answer:
+- `pop` returns the removed element.
+
 5. What is the difference between shift and unshift?
+Answer:
+- `shift` removes the first element from an array and returns that removed element.
+- `unshift` adds one or more elements to the beginning of an array and returns the new length of the array.
 ```
