@@ -209,3 +209,29 @@ This approach is useful because:
 - It returns a new array containing only the matching items.
 - Combined with `.toLowerCase()`, it enables case-insensitive search.
 - If no matches are found, it returns an empty array, which allows the UI to display a "No students found" message.
+
+
+
+### Exercise 07 - Fetch Local JSON
+
+
+
+1. What does async mean?
+
+`async` means that a function is allowed to run asynchronously, meaning it can perform tasks that take time to complete without blocking the rest of the code from executing. When a function is marked as `async`, it always returns a Promise, and it allows the use of the `await` keyword inside the function body.
+
+2. What does await do?
+
+`await` pauses the execution of an `async` function until a Promise is resolved or rejected. It waits for the asynchronous operation to finish and then returns the resolved value. This makes asynchronous code look and behave more like synchronous code, improving readability.
+
+3. What does fetch do?
+
+`fetch` is a built-in JavaScript function used to make HTTP requests to retrieve data from a file or an API endpoint. It returns a Promise that resolves to a Response object, which can then be converted into JSON, text, or other formats for use in the application.
+
+4. Why do we use fetch before connecting to a real backend API?
+
+We use `fetch` with a local JSON file first to understand the mechanics of asynchronous data loading, request handling, and error management in a simple and controlled environment. Once these concepts are clear, connecting to a real backend API such as Spring Boot follows the same pattern, just with a different URL.
+
+5. Why should this exercise be run using Live Server?
+
+This exercise must be run using Live Server because browsers block `fetch` requests when opening HTML files directly from the file system due to security restrictions (CORS policy). Live Server serves the files over a local HTTP server, which allows `fetch` to load the `students.json` file without being blocked.
