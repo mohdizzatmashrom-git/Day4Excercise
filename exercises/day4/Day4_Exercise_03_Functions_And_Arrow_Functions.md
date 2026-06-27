@@ -91,4 +91,6 @@ Answer:
 
 ```text
 Why are arrow functions important before learning React?
+Arrow functions are important before learning React because they provide a more concise syntax for writing functions. Additionally, arrow functions do not have their own `this`, so they inherit `this` from the parent scope. This can be useful in React when working with event handlers and other functions that need access to the component's `this`.
+
 ```
