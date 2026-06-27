@@ -74,4 +74,5 @@ Answer:
 
 ```text
 What is one difference between a Java object and a JavaScript object?
+Answer: In Java, objects are created using a class definition, while in JavaScript, objects can be created using object literals.
 ```
