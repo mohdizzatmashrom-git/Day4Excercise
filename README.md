@@ -110,3 +110,80 @@ Participants may use AI tools to:
 
 Participants must always review, verify, test, and understand any AI-generated output. No passwords, API keys, tokens, private keys, or confidential data should be placed into AI prompts.
 
+
+
+---
+
+
+
+## Day 4 Exercises - README Reflections
+
+
+
+### Exercise 01 - JavaScript Object
+
+
+
+What is one difference between a Java object and a JavaScript object?
+
+In Java, objects are created using a class definition, while in JavaScript, objects can be created using object literals.
+
+
+
+### Exercise 02 - Arrays And Loops
+
+
+
+How is a JavaScript array similar to Java ArrayList?
+
+A JavaScript array is similar to a Java ArrayList because it is a collection of elements that can be accessed by index.
+
+
+
+### Exercise 03 - Functions And Arrow Functions
+
+
+
+Why are arrow functions important before learning React?
+
+Arrow functions are important before learning React because they provide a more concise syntax for writing functions. Additionally, arrow functions do not have their own `this`, so they inherit `this` from the parent scope. This can be useful in React when working with event handlers and other functions that need access to the component's `this`.
+
+
+
+### Exercise 04 - Array Methods
+
+
+
+1. What is the difference between filter, find, and map?
+
+- `filter` creates a new array with all elements that pass the test implemented by the provided function.
+- `find` returns the value of the first element in the array that satisfies the provided testing function. If no values satisfy the testing function, `undefined` is returned.
+- `map` creates a new array populated with the results of calling a provided function on every element in the calling array.
+
+2. Which four array methods change the original array?
+
+- `push`, `pop`, `shift`, and `unshift` change the original array.
+
+3. What does push return?
+
+- `push` returns the new length of the array.
+
+4. What does pop return?
+
+- `pop` returns the removed element.
+
+5. What is the difference between shift and unshift?
+
+- `shift` removes the first element from an array and returns that removed element.
+- `unshift` adds one or more elements to the beginning of an array and returns the new length of the array.
+
+
+
+### Exercise 05 - DOM Rendering
+
+
+
+What does the DOM allow JavaScript to do?
+
+The DOM allows JavaScript to interact with and dynamically modify the content, structure, and style of a web page. It represents the HTML document as a tree of objects, enabling JavaScript to access, add, remove, or change HTML elements and attributes, respond to user events, and update the page without requiring a full reload.
+
